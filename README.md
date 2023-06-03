@@ -1,6 +1,6 @@
 # Install
 Unzip the Deep3DFaceRecon_pytorch.zip  
-Use the [jupyter notebook]([https://www.baidu.com/](https://github.com/ProgrammerManstein/Deep3DFaceRecon_pytorch/blob/master/notebook/3dre.ipynb))to install the project.
+Use the [jupyter notebook](https://github.com/ProgrammerManstein/Deep3DFaceRecon_pytorch/blob/master/notebook/3dre.ipynb) to install the project.
 You can find some help from [the origin project](https://github.com/sicxu/Deep3DFaceRecon_pytorch)  
 # Test with custom images  
 To reconstruct 3d faces from test images, organize the test image folder as follows:  
