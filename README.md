@@ -4,6 +4,7 @@ Use the [jupyter notebook](https://github.com/ProgrammerManstein/Deep3DFaceRecon
 You can find some help from [the origin project](https://github.com/sicxu/Deep3DFaceRecon_pytorch).  
 # Prepare prerequisite models
 Our method uses Basel Face Model 2009 (BFM09) to represent 3d faces. Get access to BFM09 using this [link](https://drive.google.com/file/d/1bw5Xf8C12pWmcMhNEu6PtsYVZkVucEN6/view?usp=sharing). After getting the access, download "01_MorphableModel.mat". In addition, we use an Expression Basis provided by Guo et al.. Download the Expression Basis (Exp_Pca.bin) using this link ([google drive](https://drive.google.com/file/d/1bw5Xf8C12pWmcMhNEu6PtsYVZkVucEN6/view?usp=sharing)). Organize all files into the following structure:  
+```
 Deep3DFaceRecon_pytorch  
 │  
 └─── BFM  
@@ -12,8 +13,10 @@ Deep3DFaceRecon_pytorch
     │  
     └─── Exp_Pca.bin  
     |  
-    └─── ...  
+    └─── ...
+```  
 We provide a model trained on a combination of CelebA, LFW, 300WLP, IJB-A, LS3D-W, and FFHQ datasets. Download the pre-trained model using this link ([google drive](https://faces.dmi.unibas.ch/bfm/main.php?nav=1-2&id=downloads)) and organize the directory into the following structure:  
+```
 Deep3DFaceRecon_pytorch  
 │  
 └─── checkpoints  
@@ -21,7 +24,8 @@ Deep3DFaceRecon_pytorch
     └─── <model_name>  
         │  
         └─── epoch_20.pth  
-	
+
+```  
 # Test with custom images  
 To reconstruct 3d faces from test images, organize the test image folder as follows:  
 
