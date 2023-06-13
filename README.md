@@ -3,7 +3,7 @@ Unzip the Deep3DFaceRecon_pytorch.zip. It has included everything we need for th
 Use the [jupyter notebook](https://github.com/ProgrammerManstein/Deep3DFaceRecon_pytorch/blob/master/notebook/3dre.ipynb) to install the project.
 You can find some help from [the origin project](https://github.com/sicxu/Deep3DFaceRecon_pytorch).  
 # Prepare prerequisite models
-Our method uses Basel Face Model 2009 (BFM09) to represent 3d faces. Get access to BFM09 using this [link](https://drive.google.com/file/d/1bw5Xf8C12pWmcMhNEu6PtsYVZkVucEN6/view?usp=sharing). After getting the access, download "01_MorphableModel.mat". In addition, we use an Expression Basis provided by Guo et al.. Download the Expression Basis (Exp_Pca.bin) using this link ([google drive](https://drive.google.com/file/d/1bw5Xf8C12pWmcMhNEu6PtsYVZkVucEN6/view?usp=sharing)). Organize all files into the following structure:  
+Our method uses Basel Face Model 2009 (BFM09) to represent 3d faces. Get access to BFM09 using this [link](https://drive.google.com/file/d/1bw5Xf8C12pWmcMhNEu6PtsYVZkVucEN6/view?usp=sharing). After getting the access, download "01_MorphableModel.mat". In addition, we use an Expression Basis provided by Guo et al.. Download the Expression Basis (Exp_Pca.bin) using this link ([google drive](https://drive.google.com/file/d/1bw5Xf8C12pWmcMhNEu6PtsYVZkVucEN6/view?usp=sharing)). And unzip BFM_model_front.7z. Organize all files into the following structure:  
 ```
 Deep3DFaceRecon_pytorch  
 │  
